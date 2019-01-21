@@ -7,13 +7,13 @@ public class CipherTest {
     @Test
     public void Cipher_testingEncryptingmethod() {
         Cipher cipher =new Cipher();
-        assertEquals("nbe",cipher.encrypt("mad",1));
+        assertEquals("fb",cipher.encrypt("fbi",1));
     }
 
     @Test
     public void Cipher_testingDecryptingMethod() {
         Cipher cipher =new Cipher();
-        assertEquals("mad",cipher.decrypt("nbe",1));
+        assertEquals("fbi",cipher.decrypt("fb",1));
     }
 
 
