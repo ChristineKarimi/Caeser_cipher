@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CipherTest {
+public class CaesarcipherTest {
 
     @Test
     public void Cipher_testingEncryptingmethod() {
