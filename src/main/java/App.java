@@ -17,3 +17,18 @@ import java.util.Scanner;
             System.out.println(caeser.encrypt(message,shiftKey));
 
         }
+           else if(choice==2){
+            System.out.println("Enter the String for Decryption: ");
+            String message = new String();
+            message = sc.next();
+            System.out.println("Enter Key");
+            int shiftKey=sc.nextInt();
+            System.out.println(caeser.decrypt(message, 3));
+
+        }
+        else {
+            System.out.println("Invalid choice");
+        }
+
+
+    }
