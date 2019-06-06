@@ -11,3 +11,15 @@ after cloning it, and then though an IDE or a Console.
 
 Java
 
+## Installation
+Technologies Used
+Java
+
+## Setup
+To use the code, you can clone the repository at: https://github.com/christineKarimi/Caesar_cipher.
+
+$ git clone https://github.com/christineKarimi/Caesar_cipher.git
+$ cd Caesar_cipher
+$ gradle run
+Go to localhost:4567 in your browser
+
